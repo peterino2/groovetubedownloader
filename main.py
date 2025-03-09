@@ -9,7 +9,7 @@ output_folder = 'music/'
 if os.path.exists("settings.json"):
     with open('settings.json')as f:
         settings = json.load(f)
-        output_folder = settings['ouput_folder']
+        output_folder = settings['output_folder']
 
 app = Flask(__name__)
 
